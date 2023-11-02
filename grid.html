@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .container{
+            box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+            padding: 10px;
+        }
+        .name{
+            font-weight: bold;
+            
+        }
+        .friends{
+            color: gray;
+        }
+        .add-button{
+            border: none;
+            background-color: rgb(49, 49, 216);
+            color: white;
+            border-radius: 3px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        p{
+            margin: 0px;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div style="display: grid; grid-template-columns: 50px 1fr 75px; margin-top: 30px;" class="div-grid">
+        <div style="background-color: lightblue;">50px</div>
+        <div style="background-color: lightgreen;">1fr</div>
+        <div style="background-color: lightpink ;">75px</div>
+    </div>
+
+
+    <div style="display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+        margin-top: 30px; 
+        column-gap: 20px; 
+        row-gap: 10px;" class="div-grid">
+        <div style="background-color: lightblue;">1fr</div>
+        <div style="background-color: lightgreen;">1fr</div>
+        <div style="background-color: lightpink ;">1fr</div>
+        <div style="background-color: rgb(70, 22, 29) ;">1fr</div>
+        <div style="background-color: lightblue;">1fr</div>
+        <div style="background-color: lightgreen;">1fr</div>
+        <div style="background-color: lightpink ;">1fr</div>
+        <div style="background-color: rgb(70, 22, 29) ;">1fr</div>
+    </div>
+    
+
+    <div class="container-grid" style="display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                margin-top: 30px; 
+                column-gap: 20px; 
+                row-gap: 10px;">
+        <div class="container">
+            <div>
+                <img style="width: 100%;" class="profile-picture" src="photos/142774.jpg" >
+            </div>
+            <div class="infos">
+                <div >
+                    <p class="name">Tarçın</p>
+                </div>
+                <div>
+                    <p class="friends">2 mutual friends</p>
+                </div>
+                <div>
+                    <button class="add-button">Add Friend</button>
+                </div>
+        </div>
+        </div>
+
+        <div class="container">
+            <div>
+                <img style="width: 100%;" class="profile-picture" src="photos/1200px-RedCat_8727.jpg" >
+            </div>
+            <div class="infos">
+                <div >
+                    <p class="name">Miskin</p>
+                </div>
+                <div>
+                    <p class="friends">1 mutual friends</p>
+                </div>
+                <div>
+                    <button class="add-button">Add Friend</button>
+                </div>
+        </div>
+        </div>
+
+        <div class="container">
+            <div>
+                <img style="width: 100%;" class="profile-picture" src="photos/karam.jpg" >
+            </div>
+            <div class="infos">
+                <div >
+                    <p class="name">Karam</p>
+                </div>
+                <div>
+                    <p class="friends">3 mutual friends</p>
+                </div>
+                <div>
+                    <button class="add-button">Add Friend</button>
+                </div>
+        </div>
+        </div>
+        
+    </div>
+
+</body>
+</html>
